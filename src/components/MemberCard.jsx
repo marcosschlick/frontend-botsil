@@ -19,6 +19,7 @@ export function MemberCard({ member }) {
       <h3 className="mt-2 text-lg font-semibold text-center transition-colors duration-300 group-hover:text-cyan-400">
         {member.name}
       </h3>
+      <p className="text-base text-slate-400 text-center">{member.role}</p>
     </div>
   );
 }
